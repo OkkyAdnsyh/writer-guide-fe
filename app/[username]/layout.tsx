@@ -1,19 +1,10 @@
 import React from 'react'
 
-const Dashboard = (
-    {
-        children,
-        userModal
-    } : {
-        children : React.ReactNode,
-        userModal : React.ReactNode
-    }
-) => {
+const Dashboard = ({children} : {children : React.ReactNode}) => {
   return (
     <main>
       <aside></aside>
       {children}
-      {userModal}
     </main>
   )
 }

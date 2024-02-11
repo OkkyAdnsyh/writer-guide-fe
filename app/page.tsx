@@ -1,8 +1,8 @@
 
-const Home = () => {
+const page = () => {
   return (
     <div>page</div>
   )
 }
 
-export default Home
+export default page
